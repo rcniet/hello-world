@@ -12,6 +12,11 @@ node {
 		  // sh label: '', script: 'clean install package'
 	   //}
 	
+
+   }
+	
+}
+
 	   pipeline {
     agent any
     tools { 
@@ -34,11 +39,4 @@ node {
             }
         }
     }
-}
-   }
-	
-	
-	
-	
-	
 }
