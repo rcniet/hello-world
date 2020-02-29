@@ -5,11 +5,11 @@ node {
    stage('SCM Checkout'){
     // Clone repo
 	git branch: 'master', 
-	credentialsId: 'rcniet', 
+	// credentialsId: 'rcniet', 
 	url: 'https://github.com/rcniet/hello-world.git'
 	   
 	   stage ('build maven'){
-		   sh label: '', script: 'clean install package'
+		   sh label: '', script: 'mvn pom.xml'
 	   }
 	   
    }
