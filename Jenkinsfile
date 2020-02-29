@@ -7,3 +7,6 @@ node {
 	git branch: 'master', 
 	credentialsId: 'rcniet@gmail.com', 
 	url: 'https://github.com/rcniet/hello-world.git'
+	   
+   }
+}
