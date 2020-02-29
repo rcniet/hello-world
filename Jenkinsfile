@@ -9,7 +9,7 @@ node {
 	url: 'https://github.com/rcniet/hello-world.git'
 	   
 	   stage ('build maven'){
-		   sh label: '', script: 'mvn ./pom.xml'
+		   sh label: '', script: 'clean install package'
 	   }
 	   
    }
