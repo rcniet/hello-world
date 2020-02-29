@@ -7,9 +7,9 @@ node {
 	git branch: 'master', 
 	url: 'https://github.com/rcniet/hello-world.git'
 	   
-	    stage ('build maven'){
-		   sh label: '', script: 'clean install package'
-	   }
+	    // stage ('build maven'){
+		//   sh label: '', script: 'clean install package'
+	    // }
 	
 
    }
